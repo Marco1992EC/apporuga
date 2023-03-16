@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 const Navbar = () => {
   const handleClick = (showPrompt) => {
     if (showPrompt) {
-      const promptValue = prompt('Ingrese un valor')
+      const promptValue = prompt('Ingresa la cantidad')
       console.log(promptValue)
     } else {
       console.log('El prompt no está habilitado')
